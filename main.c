@@ -7,6 +7,7 @@ int main() {
         printf("%d\n",i);
     }
 
+
     int j=5;
     while(j<=100)
     {
@@ -24,7 +25,13 @@ int main() {
 
 
     /***********************************Exercice n°2*******************************/
+    enum {DEBUT=100,FIN=0,INCREMENT=10};
 
+    for(int i=DEBUT;i>=FIN;i-=INCREMENT)
+    {
+        printf("%d\n",i);
+    }
+    /**********************************Exercice n°3***********************************/
 
     return 0;
 }
