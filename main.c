@@ -32,6 +32,16 @@ int main() {
         printf("%d\n",i);
     }
     /**********************************Exercice n°3***********************************/
-
+    int debut=0,fin=0,increment=0;
+    printf("Veuillez saisir le début de la boucle\n");
+    scanf("%d",&debut);
+    printf("Veuillez saisir la fin de la boucle\n");
+    scanf("%d",&fin);
+    printf("Veuillez saisir l'incrémentation\n");
+    scanf("%d",&increment);
+    for(int i=debut;i<=fin;i+=increment)
+    {
+        printf("%d\n",i);
+    }
     return 0;
 }
